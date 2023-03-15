@@ -191,7 +191,7 @@ hr {
 /* event times */
 
 #times {
-    background-image: url('../images/dublin-city.webp');
+    background-image: url('../images/times-background.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -201,7 +201,7 @@ hr {
 
 #times div {
     color: #fafafa;
-    background-color: rgb(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, .6);
     width: 20%;
     height: 300px;
     float: left;
@@ -249,9 +249,9 @@ footer {
     width: 100%;
 }
 
-/* media queries */
+/* Media queries */
 
-/* for larger to medium screens size from 1200px wide and open */
+/* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     #club-ethos {
         width: 65%;
@@ -268,7 +268,6 @@ footer {
         width: 100%;
         float: left;
         padding: 0;
-
     }
 
     #center-about {
@@ -290,7 +289,7 @@ footer {
     }
 }
 
-/* for medium screen sizes from 950px wide and open */
+/* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
     #menu {
@@ -324,16 +323,11 @@ footer {
         text-align: center;
         padding: 0 20px;
     }
-
-    #photo {
-        column-count: 3;
-    }
 }
 
-/* for small screen size 800px and down */
+/* For small screen sizes below 800px width */
 @media screen and (max-width: 800px) {
-    #photo {
+    #photos {
         column-count: 2;
     }
-} 
-    
+}
